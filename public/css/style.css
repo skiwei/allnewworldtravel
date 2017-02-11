@@ -1,0 +1,122 @@
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 15px;
+}
+
+h1, h2, h3 {
+	font-family: 'Palatino Linotype';
+	color:#cda53d;
+}
+
+img { max-width:100%; }
+
+hr { margin:20px 0; }
+
+#footer { background-color:#222; color:#fff; padding:30px 0 20px 0; margin-top:20px; text-align:center; }
+
+#country-list h4 { margin-top:0; margin-bottom:10px; }
+
+#tour-map { width:350px; height:300px; }
+#tour-map img { max-width:none; }
+
+#errors ul { margin-left:20px; }
+
+.main-content { padding-top:50px; }
+
+.header-phone {
+	font-size:18px;
+	font-weight:bold;
+	color:#fff;
+}
+
+.navbar { 
+	background:#cda53d; 
+	border:none; 
+}
+
+.navbar .navbar-nav > li > a {
+	color:#fff;
+}
+
+.navbar-brand {
+	color:#fff;
+}
+
+.alert ul { margin-left:20px; }
+
+.alert-banner {
+	padding: 15px;
+  	margin-bottom: 20px;
+  	border-radius: 5px;
+  	background-color: rgba(0,0,0,0.6);
+  	color: #fff;
+}
+
+.alert-banner h1 {
+	color: #fff;
+}
+
+.text-white { color:#fff; }
+
+.panel-semi {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.gallery { margin-bottom:10px; }
+
+.text-header { margin:30px 0; }
+
+.tour-header { margin:10px 0 25px 0; text-align:center; }
+
+.tourlist-header { margin-top:5px; }
+
+.tourlist-header small { font-size: 19px; }
+
+.tour-price-note { font-size:18px; }
+
+.table-bordered th, .table-bordered td 
+{
+    border:1px solid silver !important;
+}
+
+.thumbnail .caption ul { margin-left:20px; }
+
+.fullscreen-content { 
+	margin-top: 70px; 
+	background-color: #fff;
+	padding: 20px 50px;
+	border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+	body { font-size:15px; }
+	.navbar { background:#222; }
+	.navbar-inverse .navbar-toggle { border-color:#777; }
+	.alert-banner { font-size:15px; }
+	.jumbotron-content { padding-top:50px; }
+	.carousel-caption {
+		bottom: 0;
+	  	padding-top: 0;
+  		padding-bottom: 0;
+	}
+	.fullscreen-content { 
+		padding: 20px 10px;
+		border-radius: 10px;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-default .navbar-nav > li:hover {
+		background: #e7e7e7;
+	}
+	.navbar-inverse .navbar-nav > li:hover {
+		background: rgba(0, 0, 0, 0.7);
+  	}
+  	.dropdown:hover .dropdown-menu {
+    	display: block;
+    	background: rgba(0, 0, 0, 0.7);
+ 	 }
+  	.dropdown-menu li a { 
+  		color: white;
+  	}
+}

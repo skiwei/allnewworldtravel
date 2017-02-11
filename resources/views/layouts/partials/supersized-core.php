@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="/js/supersized/core/css/supersized.core.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/js/supersized/core/js/supersized.core.3.2.1.min.js"></script>
