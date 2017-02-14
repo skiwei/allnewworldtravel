@@ -35,7 +35,7 @@ use App\AllNewWorld\Libraries\VO;
 				</div>
 				<div class='form-group'>
 					<label>Message:</label>
-					<textarea name='message' class='form-control' required></textarea>
+					<textarea name='message' rows='5' class='form-control' required></textarea>
 				</div>
 				<div class='form-group'>
 					<input type='submit' value='Submit' class='btn btn-primary btn-lg'>
