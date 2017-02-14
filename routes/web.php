@@ -19,6 +19,10 @@ Route::get('about', 'HomeController@abut')->name('about');
 
 Route::get('contact', 'HomeController@contact')->name('contact');
 
+Route::post('contact', 'HomeController@submitContact')->name('contact.submit');
+
+Route::get('thankyou', 'HomeController@thankyou')->name('thankyou');
+
 Route::get('featuredTours', 'ToursController@featuredTours')->name('featuredTours');
 
 Route::get('tours/{tour}', 'ToursController@show')->name('tours.show');

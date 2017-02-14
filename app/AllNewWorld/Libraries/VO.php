@@ -2,12 +2,12 @@
 
 class VO 
 {
-	const COMPANY_EMAIL = 'sales@sayangholidays.com';
-	const COMPANY_NAME = 'All New World Tours & Travel';
-	const COMPANY_ADDRESS = '3545 Jamison Way';
-	const COMPANY_CITY = 'Castro Valley';
+	const COMPANY_EMAIL = 'newworldtnt@yahoo.com';
+	const COMPANY_NAME = 'New World Tours & Travel';
+	const COMPANY_ADDRESS = '1015 Larkin St';
+	const COMPANY_CITY = 'San Francisco';
 	const COMPANY_STATE = 'CA';
-	const COMPANY_ZIPCODE = '94546';
+	const COMPANY_ZIPCODE = '94109';
 	const COMPANY_COUNTRY = 'United States';
 	const COMPANY_PHONE = '415-441-8687';
 	
