@@ -2,7 +2,7 @@
 
 class VO 
 {
-	const COMPANY_EMAIL = 'newworldtnt@yahoo.com';
+	const COMPANY_EMAIL = 'mail@newworldtnt.com';
 	const COMPANY_NAME = 'New World Tours & Travel';
 	const COMPANY_ADDRESS = '1015 Larkin St';
 	const COMPANY_CITY = 'San Francisco';
