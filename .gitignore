@@ -8,6 +8,3 @@ Homestead.json
 Homestead.yaml
 .env
 .env.*
-/.settings
-.buildpath
-.project
