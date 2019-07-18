@@ -10,7 +10,7 @@ class TourRepository
 
     public function __construct()
     {
-        $this->client = new Client(['base_uri' => 'http://newworldtnt.sayangholidays.com/api/']);
+        $this->client = new Client(['base_uri' => 'http://api.sayangholidays.com/api/']);
     }
 
     public function featuredTours($limit)
