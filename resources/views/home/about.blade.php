@@ -12,7 +12,7 @@
 		$(function() {
 			$.supersized({
 				slides: [{
-					image : 'http://www.sayangholidays.com/images/photos/about-full.jpg'
+					image : 'https://www.sayangholidays.net/images/photos/about-full.jpg'
 				}]
 			});
 		})

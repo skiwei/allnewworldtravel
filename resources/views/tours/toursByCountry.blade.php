@@ -19,7 +19,7 @@ $countryCode = $country->country_code;
 		$(function() {
 			$.supersized({
 				slides: [{
-					image : 'http://www.sayangholidays.com/images/destinations/thumbnails/{{$countryCode}}-thumbnail.jpg', 
+					image : 'https://www.sayangholidays.net/images/destinations/thumbnails/{{$countryCode}}-thumbnail.jpg', 
 					title : '{{$countryName}}'
 				}]
 			});

@@ -50,7 +50,7 @@ use App\AllNewWorld\Libraries\VO;
 		$(function() {
 			$.supersized({
 				slides: [{
-					image : 'http://www.sayangholidays.com/images/photos/contact-full.jpg'
+					image : 'https://www.sayangholidays.net/images/photos/contact-full.jpg'
 				}]
 			});
 		})

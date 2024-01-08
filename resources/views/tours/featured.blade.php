@@ -15,7 +15,7 @@
 		$(function() {
 			$.supersized({
 				slides: [{
-					image : 'http://www.sayangholidays.com/images/photos/featured-full.jpg', 
+					image : 'https://www.sayangholidays.net/images/photos/featured-full.jpg', 
 					title : 'Featured Tours'
 				}]
 			});
