@@ -10,7 +10,7 @@ class TourRepository
 
   public function __construct()
   {
-    $this->client = new Client(['base_uri' => 'https://www.sayangholidays.net/api/']);
+    $this->client = new Client(['base_uri' => 'https://api.sayangholidays.net/api/']);
   }
 
   public function featuredTours($limit)
